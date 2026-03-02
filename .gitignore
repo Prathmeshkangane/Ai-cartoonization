@@ -1,0 +1,25 @@
+# Python environment
+venv/
+ENV/
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Databases (VERY IMPORTANT: don't push your user data)
+*.db
+*.sqlite3
+
+# User uploads and processed results
+cartoonize_app/uploads/
+cartoonize_app/processed/
+
+# Streamlit local configs
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
